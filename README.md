@@ -25,9 +25,9 @@ Incluye una pantalla Splash animada con la API oficial de Google y un diseño at
 >
 >### Interfaz Principal
 >
->| Splash | Calculadora | Operación | Resultado |
->|--------|------------|-----------|-----------|
->| <img src="https://i.imgur.com/6VJ2YZt.png" width="170px"> | <img src="https://i.imgur.com/Q5jCbrP.png" width="170px"> | <img src="https://i.imgur.com/nJf6r0O.png" width="170px"> | <img src="https://i.imgur.com/2nXbr8F.png" width="170px"> |
+>| Splash | Calculadora | Div. por Cero | Resultado |
+>|--------|-------------|---------------|-----------|
+>| <img src="https://i.imgur.com/7zW47Jj.png" width="170px"> | <img src="https://i.imgur.com/eaBozjL.png" width="170px"> | <img src="https://i.imgur.com/OJ6nH31.png" width="170px"> | <img src="https://i.imgur.com/2nYhvkv.png" width="170px"> |
 
 ## Características
 

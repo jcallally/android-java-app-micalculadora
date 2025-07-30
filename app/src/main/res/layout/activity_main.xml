@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Pantalla -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/display_shape_gray1">
+
+        <TextView
+            android:id="@+id/tv_pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorScreen"
+            android:fontFamily="@font/led_calculator"
+            android:gravity="center_vertical|end"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="0."
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- Zona de botones -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <!-- Fila 1: Texto + Botón C -->
+        <TextView android:id="@+id/tv_firma" android:text="© JavCodeDev" style="@style/Calctext.TopRow" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_clear" android:text="C" style="@style/CalcButton.Orange" tools:ignore="HardcodedText"/>
+
+        <!-- Fila 2 -->
+        <Button android:id="@+id/btn_7" android:text="7" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_8" android:text="8" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_9" android:text="9" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_div" android:text="÷" style="@style/CalcButton.Blue" tools:ignore="HardcodedText" />
+
+        <!-- Fila 3 -->
+        <Button android:id="@+id/btn_4" android:text="4" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_5" android:text="5" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_6" android:text="6" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_mul" android:text="x" style="@style/CalcButton.Blue" tools:ignore="HardcodedText" />
+
+        <!-- Fila 4 -->
+        <Button android:id="@+id/btn_1" android:text="1" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_2" android:text="2" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_3" android:text="3" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_res" android:text="-" style="@style/CalcButton.Blue" tools:ignore="HardcodedText" />
+
+        <!-- Fila 5 -->
+        <Button android:id="@+id/btn_0" android:text="0" style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_punto" android:text="." style="@style/CalcButton.Gray" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_igual" android:text="=" style="@style/CalcButton.Orange" tools:ignore="HardcodedText" />
+        <Button android:id="@+id/btn_sum" android:text="+" style="@style/CalcButton.Blue" tools:ignore="HardcodedText" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personaliza el tema -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Colores de barras del sistema -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+
+    <!-- ========= ESTILOS PARA BOTONES ========= -->
+
+    <!-- Estilo para Texto superior en la primera fila -->
+    <style name="Calctext.TopRow" parent="Theme.Calculator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnSpan">3</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">3</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Estilo base para todos los botones -->
+    <style name="CalcButton.Base" parent="Theme.Calculator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Botones grises (números) -->
+    <style name="CalcButton.Gray" parent="CalcButton.Base">
+        <item name="android:background">@drawable/button_ripple_gray</item>
+    </style>
+
+    <!-- Botones azules (operaciones) -->
+    <style name="CalcButton.Blue" parent="CalcButton.Base">
+        <item name="android:background">@drawable/button_ripple_blue</item>
+    </style>
+
+    <!-- Botones naranjas (C y =) -->
+    <style name="CalcButton.Orange" parent="CalcButton.Base">
+        <item name="android:background">@drawable/button_ripple_orange</item>
+    </style>
+
+    <!-- Tema para el SplashScreen -->
+    <style name="Theme.MyCalculator.Splash" parent="Theme.SplashScreen">
+        <!-- Fondo del Splash -->
+        <item name="windowSplashScreenBackground">@color/colorWhite</item>
+        <!-- Icono del Splash -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/logo</item>
+        <!-- Tema que se aplicará después del Splash -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.Calculator</item>
+    </style>
+    
+</resources>

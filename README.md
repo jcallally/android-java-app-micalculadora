@@ -77,27 +77,6 @@ Incluye una pantalla Splash animada con la API oficial de Google y un diseño at
 > implementation 'androidx.core:core-splashscreen:1.0.1'
 > ```
 
-## Código Destacado
-
->[!IMPORTANT]
-> Fragmento de la lógica principal:
->
-> ```java
-> private final Map<String, Operation> operations = new HashMap<>() {{
->     put("+", (a, b) -> a + b);
->     put("-", (a, b) -> a - b);
->     put("x", (a, b) -> a * b);
->     put("÷", (a, b) -> (b == 0) ? Double.NaN : a / b);
-> }};
->
-> double result = operations.get(currentOperation).apply(firstOperand, secondOperand);
-> if (Double.isNaN(result)) {
->     tvDisplay.setText("Error");
-> } else {
->     tvDisplay.setText(formatResult(result));
-> }
-> ```
-
 ## Contribución
 
 >[!NOTE]

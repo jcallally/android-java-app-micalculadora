@@ -89,7 +89,7 @@ Incluye una pantalla Splash animada con la API oficial de Google y un diseño at
 
 >[!IMPORTANT]
 > Este proyecto se encuentra bajo la Licencia Apache 2.0.
-> Consulta el archivo [LICENSE](https://github.com/jcallally/android-java-app-burgermail/blob/main/LICENSE) para más detalles.
+> Consulta el archivo [LICENSE](https://github.com/jcallally/android-java-app-micalculadora/blob/main/LICENSE) para más detalles.
 >
 > ```
 >    Copyright (c) 2025 Javier Callally

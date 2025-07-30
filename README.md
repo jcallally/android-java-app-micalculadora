@@ -14,7 +14,7 @@ Incluye una pantalla Splash animada con la API oficial de Google y un diseño at
 >
 > - Operaciones básicas: **suma, resta, multiplicación y división**.
 > - Manejo de números decimales y validación de errores (ej. división por cero).
-> - **Interfaz moderna** con colores personalizados y diseño intuitivo.
+> - Interfaz moderna con colores personalizados y diseño intuitivo.
 > - Splash Screen animado (fade out) implementado con (`androidx.core.splashscreen`).
 
 ## Capturas de Pantalla
